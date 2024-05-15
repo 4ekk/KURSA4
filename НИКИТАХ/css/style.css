@@ -1,0 +1,49 @@
+body {
+    background: url('https://static1.xdaimages.com/wordpress/wp-content/uploads/2023/04/nvidia-geforce-rtx-4070.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем отступы по умолчанию */
+}
+
+.header_text {
+    color: rgb(43, 202, 43);
+    text-align: center; /* Выравнивание текста по центру */
+    display: inline-block; /* Делаем контейнер inline-block, чтобы логотип и текст были в одной строке */
+}
+
+.header_text ul {
+    padding: 0; /* Убираем внутренний отступ у списка */
+    margin: 0;
+}
+
+.header_text ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Выравниваем элементы по центру горизонтально */
+    align-items: center; /* Выравниваем элементы по центру вертикально */
+    background-color: black;
+    height: 10vh;
+    width: 100%; /* Ширина шапки равна ширине экрана */
+    position: fixed; /* Фиксированное позиционирование */
+    top: 0; /* Положение шапки относительно верхней границы окна браузера */
+}
+
+.logo img {
+    width: 30vh;
+    display: inline-block;
+    vertical-align: middle; /* Выравнивание логотипа по вертикали с текстом */
+}
+
+.logo {
+    margin-right: 140vh; /* Добавляем немного отступа между логотипом и текстом */
+}
+
+.header_text ul {
+    padding: 0; /* Убираем внутренний отступ у списка */
+    margin: 0;
+}
